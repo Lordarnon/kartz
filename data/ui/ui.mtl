@@ -1,0 +1,111 @@
+//-----------------------------------------------------------------------------
+/*!
+	\file	hud.mtl
+	
+	\brief	Shared, hand-rolled, material data
+*/
+//-----------------------------------------------------------------------------
+
+CIwMaterial
+{
+	name		"youwin"
+	texture0	"./youwin.bmp"
+}
+
+CIwMaterial
+{
+	name		"youlose"
+	texture0	"./youlose.bmp"
+}
+
+CIwMaterial
+{
+	name		"startsplash"
+	texture0	"./startsplash.bmp"
+}
+
+CIwMaterial
+{
+	name		"countdownmarkergo"
+	texture0	"./countdownmarkergo.bmp"
+}
+
+CIwMaterial
+{
+	name		"countdownmarker1"
+	texture0	"./countdownmarker1.bmp"
+}
+
+CIwMaterial
+{
+	name		"countdownmarker2"
+	texture0	"./countdownmarker2.bmp"
+}
+
+CIwMaterial
+{
+	name		"countdownmarker3"
+	texture0	"./countdownmarker3.bmp"
+}
+
+CIwMaterial
+{
+	name		"lap"
+	texture0	"./lap.bmp"
+}
+
+CIwMaterial
+{
+	name		"pos"
+	texture0	"./pos.bmp"
+}
+
+CIwMaterial
+{
+	name		"pos1_4"
+	texture0	"./pos1_4.bmp"
+}
+
+CIwMaterial
+{
+	name		"pos2_4"
+	texture0	"./pos2_4.bmp"
+}
+
+CIwMaterial
+{
+	name		"pos3_4"
+	texture0	"./pos3_4.bmp"
+}
+
+CIwMaterial
+{
+	name		"pos4_4"
+	texture0	"./pos4_4.bmp"
+}
+
+
+CIwMaterial
+{
+	name		"pause"
+	texture0	"./pause.bmp"
+}
+
+CIwMaterial
+{
+	name		"quit"
+	texture0	"./quit.bmp"
+}
+
+CIwMaterial
+{
+	name		"start"
+	texture0	"./start.bmp"
+}
+
+CIwMaterial
+{
+	name		"shadow"
+	texture0	"./shadow.bmp"
+	alphaMode	"SUB"
+}

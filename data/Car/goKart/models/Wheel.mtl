@@ -1,0 +1,12 @@
+CIwMaterial
+{
+	name "Wheel/wheeltex"
+	colEmissive {0,0,0}
+	texture0 "wheel.bmp"
+}
+CIwMaterial
+{
+	name "Wheel/tyretex"
+	colEmissive {0,0,0}
+	texture0 "tyre.bmp"
+}

@@ -1,0 +1,175 @@
+CIwMaterial
+{
+	name "gokart_materials/lambert1"
+	colAmbient {127,127,127}
+	colDiffuse {127,127,127}
+	colEmissive {0,0,0}
+}
+CIwMaterial
+{
+	name "gokart_materials/arm_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/arm#.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/arm_green"
+	colEmissive {0,0,0}
+	texture0 "./textures/arm#green.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/arm_orange"
+	colEmissive {0,0,0}
+	texture0 "./textures/arm#orange.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/arm_yellow"
+	colEmissive {0,0,0}
+	texture0 "./textures/arm#yellow.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/bashhat_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/bashhat#.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/bashhat_green"
+	colEmissive {0,0,0}
+	texture0 "./textures/bashhat#green.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/bashhat_orange"
+	colEmissive {0,0,0}
+	texture0 "./textures/bashhat#orange.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/bashhat_yellow"
+	colEmissive {0,0,0}
+	texture0 "./textures/bashhat#yellow.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/frontup_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/frontup#.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/frontup_green"
+	colEmissive {0,0,0}
+	texture0 "./textures/frontup#green.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/frontup_orange"
+	colEmissive {0,0,0}
+	texture0 "./textures/frontup#orange.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/frontup_yellow"
+	colEmissive {0,0,0}
+	texture0 "./textures/frontup#yellow.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/overaltop_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/overaltop#.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/overaltop_green"
+	colEmissive {0,0,0}
+	texture0 "./textures/overaltop#green.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/overaltop_orange"
+	colEmissive {0,0,0}
+	texture0 "./textures/overaltop#orange.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/overaltop_yellow"
+	colEmissive {0,0,0}
+	texture0 "./textures/overaltop#yellow.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/plastic_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/plastic#.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/plastic_green"
+	colEmissive {0,0,0}
+	texture0 "./textures/plastic#green.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/plastic_orange"
+	colEmissive {0,0,0}
+	texture0 "./textures/plastic#orange.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/plastic_yellow"
+	colEmissive {0,0,0}
+	texture0 "./textures/plastic#yellow.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/seat_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/seat#.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/seat_green"
+	colEmissive {0,0,0}
+	texture0 "./textures/seat#green.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/seat_orange"
+	colEmissive {0,0,0}
+	texture0 "./textures/seat#orange.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/seat_yellow"
+	colEmissive {0,0,0}
+	texture0 "./textures/seat#yellow.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/seatback_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/seatback#.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/seatback_green"
+	colEmissive {0,0,0}
+	texture0 "./textures/seatback#green.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/seatback_orange"
+	colEmissive {0,0,0}
+	texture0 "./textures/seatback#orange.bmp"
+}
+CIwMaterial
+{
+	name "gokart_materials/seatback_yellow"
+	colEmissive {0,0,0}
+	texture0 "./textures/seatback#yellow.bmp"
+}

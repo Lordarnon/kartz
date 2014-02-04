@@ -1,0 +1,40 @@
+// Resource script
+CIwResGroup
+{
+	name "ui"
+	shared true
+
+	// UI textures
+	"ui/ui.mtl"
+	"./sounds/Kartingmusic.wav"
+	"./sounds/ui_select.wav"
+	"./sounds/countdown.wav"
+	"./sounds/go.wav"
+
+	CIwSoundGroup
+	{
+		name music	
+	}
+	CIwSoundSpec
+	{
+		name Kartingmusic
+		data Kartingmusic
+		group music
+		loop 1
+	}
+	CIwSoundSpec
+	{
+		name ui_select
+		data ui_select
+	}
+	CIwSoundSpec
+	{
+		name countdown
+		data countdown
+	}
+	CIwSoundSpec
+	{
+		name go
+		data go
+	}
+}

@@ -1,0 +1,15 @@
+// Source file: C:/Dev/sdk/main/sdk_examples/Genres/Racing/untitled
+// Exported By: barclay on 05/24/07 17:04:33
+
+CIwResGroup
+{
+	name "Track"
+
+	shared true
+
+	useTemplate "geo" "level"
+	"environment/track_01/track_01.group"
+	useTemplate "geo" "default"
+	"tracks/track_01/track_01.world"
+
+}

@@ -1,0 +1,20 @@
+[Game]
+Track			<String>	Track selection
+LoadFromDerbh   	<0 or 1>	Should assets load from the RacingResources.dz derbh file?
+
+
+[RacingDemoMemory]
+Gx     			<Integer>	Space used by Marmalade:Studio
+Track   		<Integer>	Space used by the world
+Cars    		<Integer>	Space used by the cars
+Gui     		<Integer>	Space used by the gui
+States   		<Integer>	Space used by game states
+Misc    		<Integer>	Space used by other systems
+MEM_BREAKPOINT  	<Integer>	A memory ID to break on.
+
+[Trace]
+RCD 			<0 or 1>	Racing Demo Trace Channel
+RCD_AI			<0 or 1> 	Racing Demo AI Trace Channel
+
+[Assert]
+RCD 			<0 or 1>	Racing Demo Assert Channel

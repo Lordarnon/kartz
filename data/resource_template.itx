@@ -1,0 +1,17 @@
+CIwResTemplateGEO
+{
+	name "default"
+	scale 1.0
+}
+
+CIwResTemplateGEO
+{
+	name "level"
+	scale 1.0
+	userString "level"
+	chunked true
+	maxPrimsPerChunk 200
+	buildVertNorms false
+	convertColsToGreyscale true
+	triStrip true
+}

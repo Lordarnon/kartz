@@ -1,0 +1,8 @@
+// Source file: C:/dev/sdk/main/sdk_examples/Genres/Racing/art/tracks/track_01/Maya7/track_01_GeoExport.mb
+// Exported By: <Unknown> on 07/16/08 16:42:06
+
+CIwResGroup
+{
+	name "track_01"
+	"./models/track_01.geo" 
+}

@@ -1,0 +1,39 @@
+// Source file: C:/Dev/sdk/main/sdk_examples/Genres/Racing/art/cars/goKart/gokart.mb
+// Exported By: chris on 05/30/07 15:31:43
+
+CIwResGroup
+{
+	name "goKart"
+	"\Car\goKart\models\goKart.geo"
+	"\Car\goKart\models\gokart_materials.mtl"
+	"\Car\goKart\models\Wheel.geo"
+	"\Car\goKart\models\Wheel.mtl"
+	"./sounds/engine.wav"
+	"./sounds/skid1.wav"
+	"./sounds/collide.wav"
+
+	CIwSoundGroup
+	{
+		name gamesfx
+	}
+	CIwSoundSpec
+	{
+		name engine
+		data engine
+		group gamesfx
+		loop 1
+	}
+	CIwSoundSpec
+	{
+		name skid
+		data skid1
+		group gamesfx
+		loop 1
+	}
+	CIwSoundSpec
+	{
+		name collide
+		data collide
+		group gamesfx
+	}
+}

@@ -1,0 +1,189 @@
+#!/usr/bin/env mkb
+
+define IW_USE_LEGACY_MODULES
+
+options
+{
+    # The module_path describes how makefile_builder should search for
+    # subprojects Kartz needs.  We add the exampels folder here so
+    # we can use GameFramework and SoundEngine.
+    module_path="$MARMALADE_ROOT/examples"
+    app-icf='data/app-gles1.icf,data/app.icf'
+    strict
+}
+
+includepath source
+
+files
+{
+    [Main]
+    (source)
+    RacingDemo.h
+    RacingDemo.cpp
+    Game.h
+    Game.cpp
+    GeomUtils.h
+    GeomUtils.cpp
+    MemoryManager.h
+    MemoryManager.cpp
+
+    ["Game States"]
+    BaseState.h
+    BaseState.cpp
+    EndGameState.h
+    EndGameState.cpp
+    FrontendState.h
+    FrontendState.cpp
+    InGameState.h
+    InGameState.cpp
+    LoadState.h
+    LoadState.cpp
+    PauseState.h
+    PauseState.cpp
+
+    [Entities]
+    Car.h
+    Car.cpp
+    CarBody.h
+    CarBody.cpp
+    CarFactory.h
+    CarFactory.cpp
+    ChaseCamera.h
+    ChaseCamera.cpp
+    Chassis.h
+    Chassis.cpp
+    Driver.h
+    Driver.cpp
+    HumanDriver.h
+    HumanDriver.cpp
+    GeomModel.h
+    GeomModel.cpp
+    BestLine.h
+    BestLine.cpp
+    BestLineTracker.h
+    BestLineTracker.cpp
+    AIDriver.h
+    AIDriver.cpp
+    Wheel.h
+    Wheel.cpp
+    WheelPos.h
+    WheelPos.cpp
+    InCarCamera.h
+    InCarCamera.cpp
+
+    [World]
+    World.h
+    World.cpp
+    ModelBlockCollisionMesh.h
+    ModelBlockCollisionMesh.cpp
+    TrackCollision.h
+    TrackCollision.cpp
+}
+
+subprojects
+{
+    derbh
+    iwgx
+    iwgraphics
+    GameFramework
+    SoundEngine
+    s3eBackgroundMusic
+}
+
+# Assets that will be deployed with the application
+assets
+{
+    (data)
+    [SW]
+
+    RacingResources-sw.dz
+
+    [GLES1]
+
+    RacingResources-gles1.dz
+
+    [GLES1-ATITC]
+
+    RacingResources-gles1-atitc.dz
+
+    [GLES1-PVRTC]
+
+    RacingResources-gles1-pvrtc.dz
+
+    [GLES1-DXT]
+
+    RacingResources-gles1-dxt.dz
+
+    [GLES2-DXT]
+
+    RacingResources-gles2-dxt.dz
+
+    [GLES2-ETC]
+
+    RacingResources-gles2-etc.dz
+}
+
+# Descriptions of ways of deploying the application
+deployments
+{
+    caption="Kartz"
+    assets=GLES1
+    app-icf='data/app-gles1.icf,data/app.icf'
+    version=1.0.0
+
+    iphone-splash='splashscreens/startsplash_landscape.png'
+    splashscreen='splashscreens/splashscreen.png'
+
+    icon=icons
+
+    # Various deployments to support alternative GPU hardware types
+    [SW]
+    assets=SW
+    app-icf='data/app-sw.icf,data/app.icf'
+
+    [GLES1-ATITC]
+    assets=GLES1-ATITC
+    app-icf='data/app-gles1-atitc.icf,data/app.icf'
+
+    [GLES1-PVRTC]
+    assets=GLES1-PVRTC
+    app-icf='data/app-gles1-pvrtc.icf,data/app.icf'
+
+    [GLES2-ETC]
+    assets=GLES2-ETC
+    app-icf='data/app-gles2-etc.icf,data/app.icf'
+
+    [GLES1-DXT]
+    assets=GLES1-DXT
+    app-icf='data/app-gles1-dxt.icf,data/app.icf'
+
+    [GLES2-DXT]
+    assets=GLES2-DXT
+    app-icf='data/app-gles2-dxt.icf,data/app.icf'
+
+    # Android deployments to support Multiple APKs for a single
+    # Market application listing, based on GPU texture support.
+    # Also demonstrates large (eg tablet) vs small (eg phone)
+    # builds. Note that the binaries are identical and this is
+    # not a real usecase for having multiple builds by screen size.
+    [Android-ETC]
+    assets=GLES2-ETC
+    app-icf='data/app-gles2-etc.icf,data/app.icf'
+    android-supports-gl-texture=GL_OES_compressed_ETC1_RGB8_texture
+    #for all screen sizes
+
+    [Android-PVRTC]
+    assets=GLES1-PVRTC
+    app-icf='data/app-gles1-pvrtc.icf,data/app.icf'
+    android-supports-gl-texture=GL_IMG_texture_compression_pvrtc
+    android-extra-manifest=manifests/non_tablet.txt
+    version=1.0.100
+
+    [Android-PVRTC-Tablet]
+    assets=GLES1-PVRTC
+    app-icf='data/app-gles1-pvrtc.icf,data/app.icf'
+    android-supports-gl-texture=GL_IMG_texture_compression_pvrtc
+    android-extra-manifest=manifests/tablet.txt
+    caption="Kartz (Tablet Edition)"
+    version=1.0.200
+}

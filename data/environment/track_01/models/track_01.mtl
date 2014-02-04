@@ -1,0 +1,254 @@
+// Source file: C:/dev/sdk/main/sdk_examples/Genres/Racing/art/tracks/track_01/Maya7/track_01_GeoExport.mb
+CIwMaterial
+{
+	name "track_01/scaffold"
+	cullMode "NONE"
+	texture0 "./textures/scaffold.bmp"
+}
+CIwMaterial
+{
+	name "track_01/billboarda"
+	texture0 "./textures/billboard.bmp"
+}
+CIwMaterial
+{
+	name "track_01/startlight"
+	cullMode "NONE"
+	texture0 "./textures/startlights.bmp"
+}
+CIwMaterial
+{
+	name "track_01/tyretoptex"
+	texture0 "./textures/tyrewalltopblack.bmp"
+}
+CIwMaterial
+{
+	name "track_01/longideabanner"
+	texture0 "./textures/longideabanner.bmp"
+}
+CIwMaterial
+{
+	name "track_01/lambert42"
+	texture0 "./textures/tarmaclongskid.bmp"
+}
+CIwMaterial
+{
+	name "track_01/tyretex"
+	texture0 "./textures/tyrewallblack.bmp"
+}
+CIwMaterial
+{
+	name "track_01/tyretopred"
+	texture0 "./textures/tyrewalltoprednwhite.bmp"
+}
+CIwMaterial
+{
+	name "track_01/tyrewallredtex"
+	texture0 "./textures/tyrewallrednwhite.bmp"
+}
+CIwMaterial
+{
+	name "track_01/concwalltex"
+	cullMode "NONE"
+	texture0 "./textures/concwall.bmp"
+}
+CIwMaterial
+{
+	name "track_01/roadtex"
+	texture0 "./textures/tarmac.bmp"
+}
+CIwMaterial
+{
+	name "track_01/rumbletex"
+	texture0 "./textures/rumblestrip.bmp"
+}
+CIwMaterial
+{
+	name "track_01/roadgrasstex"
+	texture0 "./textures/rumblestripgrass.bmp"
+}
+CIwMaterial
+{
+	name "track_01/grasstex"
+	texture0 "./textures/grass.bmp"
+}
+CIwMaterial
+{
+	name "track_01/bannera"
+	texture0 "./textures/bannera.bmp"
+}
+CIwMaterial
+{
+	name "track_01/bannerb"
+	texture0 "./textures/bannerb.bmp"
+}
+CIwMaterial
+{
+	name "track_01/bannerd"
+	texture0 "./textures/bannerd.bmp"
+}
+CIwMaterial
+{
+	name "track_01/bannere"
+	texture0 "./textures/bannere.bmp"
+}
+CIwMaterial
+{
+	name "track_01/bannerf"
+	texture0 "./textures/bannerf.bmp"
+}
+CIwMaterial
+{
+	name "track_01/inskidtex"
+	texture0 "./textures/tarmacinskid.bmp"
+}
+CIwMaterial
+{
+	name "track_01/tyrewallwhite"
+	texture0 "./textures/tyrewallwhite.bmp"
+}
+CIwMaterial
+{
+	name "track_01/lambert44"
+	texture0 "./textures/tyrewalltopwhite.bmp"
+}
+CIwMaterial
+{
+	name "track_01/bannerc"
+	texture0 "./textures/bannerc.bmp"
+}
+CIwMaterial
+{
+	name "track_01/tarmacstarttex"
+	texture0 "./textures/tarmacstart.bmp"
+}
+CIwMaterial
+{
+	name "track_01/buntingtex"
+	cullMode "NONE"
+	celW 64
+	celH 16
+	celNumU 1
+	celNum 4
+	celPeriod 3
+	texture0 "./textures/bunting.bmp"
+}
+CIwMaterial
+{
+	name "track_01/flagtext"
+	cullMode "NONE"
+	clampUV true
+	celW 32
+	celH 32
+	celNumU 1
+	celNum 4
+	celPeriod 1
+	texture0 "./textures/flag.bmp"
+}
+CIwMaterial
+{
+	name "track_01/posttex"
+	cullMode "NONE"
+	texture0 "./textures/post.bmp"
+}
+CIwMaterial
+{
+	name "track_01/flagblue"
+	cullMode "NONE"
+	clampUV true
+	celW 32
+	celH 32
+	celNumU 1
+	celNum 4
+	celPeriod 2
+	texture0 "./textures/flagblue.bmp"
+}
+CIwMaterial
+{
+	name "track_01/redflagtex"
+	cullMode "NONE"
+	clampUV true
+	celW 32
+	celH 32
+	celNumU 1
+	celNum 4
+	celPeriod 3
+	texture0 "./textures/flagred.bmp"
+}
+CIwMaterial
+{
+	name "track_01/labsadtex"
+	texture0 "./textures/labsad.bmp"
+}
+CIwMaterial
+{
+	name "track_01/lambert50"
+	texture0 "./textures/idealbanner.bmp"
+}
+CIwMaterial
+{
+	name "track_01/crowdanimtex"
+	cullMode "NONE"
+	celW 64
+	celH 32
+	celNumU 1
+	celNum 2
+	celPeriod 10
+	texture0 "./textures/crowdanim.bmp"
+}
+CIwMaterial
+{
+	name "track_01/signbacktex"
+	texture0 "./textures/signback.bmp"
+}
+CIwMaterial
+{
+	name "track_01/markerthree"
+	texture0 "./textures/300marker.bmp"
+}
+CIwMaterial
+{
+	name "track_01/markertwo"
+	texture0 "./textures/200marker.bmp"
+}
+CIwMaterial
+{
+	name "track_01/markerone"
+	texture0 "./textures/100marker.bmp"
+}
+CIwMaterial
+{
+	name "track_01/standpeeptex"
+	texture0 "./textures/standpeeps.bmp"
+}
+CIwMaterial
+{
+	name "track_01/standstex"
+	texture0 "./textures/stands.bmp"
+}
+CIwMaterial
+{
+	name "track_01/standbarriertex"
+	cullMode "BACK"
+	texture0 "./textures/standsbarrier.bmp"
+}
+CIwMaterial
+{
+	name "track_01/standbarriertexDS"
+	cullMode "NONE"
+	texture0 "./textures/standsbarrier.bmp"
+}
+CIwMaterial
+{
+	name "track_01/treetex"
+	cullMode "NONE"
+	clampUV true
+	texture0 "./textures/treea.bmp"
+}
+CIwMaterial
+{
+	name "track_01/treebtex"
+	cullMode "NONE"
+	clampUV true
+	texture0 "./textures/treeb.bmp"
+}

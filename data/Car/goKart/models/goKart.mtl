@@ -1,0 +1,84 @@
+CIwMaterial
+{
+	name "goKart/overaltop_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/overaltop#.bmp"
+}
+CIwMaterial
+{
+	name "goKart/arm_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/arm#.bmp"
+}
+CIwMaterial
+{
+	name "goKart/gear"
+	cullMode "NONE"
+	colEmissive {0,0,0}
+	texture0 "./textures/gear.bmp"
+}
+CIwMaterial
+{
+	name "goKart/seat_base"
+	cullMode "NONE"
+	colEmissive {0,0,0}
+	texture0 "./textures/seat#.bmp"
+}
+CIwMaterial
+{
+	name "goKart/seatback_base"
+	cullMode "NONE"
+	colEmissive {0,0,0}
+	texture0 "./textures/seatback#.bmp"
+}
+CIwMaterial
+{
+	name "goKart/metalplatetex"
+	colEmissive {0,0,0}
+	texture0 "./textures/metalplate.bmp"
+}
+CIwMaterial
+{
+	name "goKart/plastic_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/plastic#.bmp"
+}
+CIwMaterial
+{
+	name "goKart/frametex"
+	cullMode "NONE"
+	colEmissive {0,0,0}
+	texture0 "./textures/frame.bmp"
+}
+CIwMaterial
+{
+	name "goKart/steeringWheel"
+	cullMode "NONE"
+	colEmissive {0,0,0}
+	texture0 "./textures/steerwheel.bmp"
+}
+CIwMaterial
+{
+	name "goKart/frontup_base"
+	cullMode "NONE"
+	colEmissive {0,0,0}
+	texture0 "./textures/frontup#.bmp"
+}
+CIwMaterial
+{
+	name "goKart/nginetex"
+	colEmissive {0,0,0}
+	texture0 "./textures/ngine.bmp"
+}
+CIwMaterial
+{
+	name "goKart/nginetop"
+	colEmissive {0,0,0}
+	texture0 "./textures/nginetop.bmp"
+}
+CIwMaterial
+{
+	name "goKart/bashhat_base"
+	colEmissive {0,0,0}
+	texture0 "./textures/bashhat#.bmp"
+}

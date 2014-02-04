@@ -1,0 +1,1 @@
+<supports-screens android:xlargeScreens="true" />
