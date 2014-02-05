@@ -1,0 +1,83 @@
+includepath h
+includepath source
+
+files
+{
+    (h)
+    IwBehaviour.h
+    IwMotionCamFree.h
+    IwMotionPath.h
+    IwEnt.h
+    IwCamera.h
+    IwGeomClass.h
+    IwGeomModel.h
+    IwPathBezier.h
+    IwPathCircle.h
+    IwPathLine.h
+    IwPathNurbs.h
+    IwPoint.h
+    IwShape.h
+    IwShapePath.h
+    IwVolume.h
+    IwVolumeBBox.h
+    IwVolumeVCylinder.h
+    IwEngine.h
+    IwEngineEvent.h
+    IwFrame.h
+    IwGame.h
+    IwGameState.h
+    IwInterpolation.h
+    IwRenderManager.h
+    IwRenderSlots.h
+    IwResHandlerWORLD.h
+    IwWorld.h
+    IwHorizon.h
+    IwHorizonBuilder.h
+
+    [Docs]
+    (docs)
+    iwengine.config.txt
+
+    [Behaviours]
+    (source)
+    IwBehaviour.cpp
+    IwMotionCamFree.cpp
+    IwMotionPath.cpp
+
+    [Ents]
+    IwEnt.cpp
+    IwCamera.cpp
+    IwGeom.cpp
+    IwGeomModel.cpp
+
+    [Shapes/Paths]
+    IwPathBezier.cpp
+    IwPathCircle.cpp
+    IwPathLine.cpp
+    IwPathNurbs.cpp
+    IwPoint.cpp
+    IwShape.cpp
+    IwShapePath.cpp
+    IwVolume.cpp
+    IwVolumeBBox.cpp
+    IwVolumeVCylinder.cpp
+
+    []
+    IwEngine.cpp
+    IwFrame.cpp
+    IwGame.cpp
+    IwGameState.cpp
+    IwInterpolation.cpp
+    IwRenderManager.cpp
+    IwRenderSlots.cpp
+    IwResHandlerWORLD.cpp
+    IwWorld.cpp
+
+    IwHorizon.cpp
+    IwHorizonBuilder.cpp
+}
+
+subprojects
+{
+    iwgraphics
+}

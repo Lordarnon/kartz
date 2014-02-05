@@ -1,0 +1,5 @@
+[Trace]
+ENGINE		<0 or 1> 	Enable GameFramework Trace channel
+
+[Assert]
+ENGINE		<0 or 1> 	Enable GameFramework Assert channel
